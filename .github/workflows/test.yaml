@@ -26,5 +26,5 @@ jobs:
 
     - name: test docker image
       run: |
-        docker run test:01
+        docker run --rm test:01
     
