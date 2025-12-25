@@ -26,5 +26,5 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run --rm test:01
+        docker run -itd test:01 bash
     
